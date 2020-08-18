@@ -1,0 +1,65 @@
+.header-bar{
+    height: 100px;
+}
+.box-reg{
+    width: 1100px;
+    height: 380px;
+    background:url(../image/reg.png@1380w) no-repeat;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.msg{
+    position: relative;
+    height: 200px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    width: 400px;
+    background: #fff;
+    opacity: 0.8;
+    padding: 50px;
+    font-size: 16px;
+    color:#333;
+    border-radius: 10px;
+}
+.alert-tit{
+    position: absolute;
+    left: 165px;
+    top:30px;
+    display: none;
+    text-align: center;
+    color: #e1251b;
+}
+.msg li{
+    height: 40px;
+    line-height: 40px;
+    margin-top: 25px;
+}
+.msg li input{
+    height: 20px;
+    padding: 4px 6px;
+    // margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555;
+    vertical-align: middle;
+    border:1px solid #555;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.msg li input:focus{
+    border-color: #66afe9;
+    outline: 0; 
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+.btn{
+    height: 35px;
+    width: 50px;
+    margin: 30px 175px 0;
+    text-align: center;
+    border: 1px solid #444;
+    border-radius: 10px;
+}

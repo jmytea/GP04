@@ -1,0 +1,265 @@
+@charset "UTF-8";
+.detail-title {
+  height: 35px; }
+
+.detail-title li {
+  float: left;
+  line-height: 35px;
+  padding: 0 10px;
+  height: 35px; }
+
+.detail-title .thisTitle {
+  font-weight: 700;
+  color: #BABABA; }
+
+.introduction {
+  height: 512px;
+  position: relative;
+  border: 1px solid #dcdcdc;
+  z-index: 3;
+  padding-top: 15px; }
+
+.introduction .sleft {
+  height: 497px;
+  width: 400px;
+  float: left; }
+
+.sleft .sbox {
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+  position: relative; }
+
+.sbox img {
+  width: 350px; }
+
+.imgselect {
+  margin: 10px auto 10px auto;
+  padding: 1px 0px;
+  float: none;
+  width: 350px;
+  overflow: hidden;
+  position: relative; }
+
+.imgselect .prev {
+  background: url(../image/arrow.png);
+  float: left;
+  height: 25px;
+  width: 25px;
+  margin-top: 10px; }
+
+.imgselect .next {
+  background: url(../image/arrow.png);
+  float: right;
+  height: 25px;
+  width: 25px;
+  margin-top: 10px;
+  transform: rotate(180deg); }
+
+.imgselect li {
+  height: 45px;
+  width: 45px;
+  padding: 2px;
+  border: 1px solid #FFF;
+  overflow: hidden;
+  float: left;
+  margin-left: 1px; }
+
+.imgselect img {
+  width: 44px;
+  border: 1px solid #ccc; }
+
+.addmy {
+  height: 35px;
+  line-height: 35px;
+  margin-right: 25px;
+  cursor: pointer; }
+
+.addmy img {
+  width: 150px;
+  height: 25px;
+  margin-top: 5px;
+  line-height: 35px;
+  float: right; }
+
+.sbox .mask {
+  height: 280px;
+  width: 280px;
+  position: absolute;
+  background: orange;
+  opacity: 0.4;
+  top: 0;
+  display: none;
+  cursor: move; }
+
+.lbox {
+  float: left;
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+  border: 1px solid #333;
+  position: absolute;
+  display: none;
+  left: 400px;
+  z-index: 999; }
+
+.lbox img {
+  position: absolute;
+  height: 500px;
+  width: 500px; }
+
+.intro-con {
+  width: 600px;
+  height: 452px;
+  float: left;
+  text-align: left; }
+
+.intro-con h2 {
+  color: #6B6B6B;
+  line-height: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  font-family: "微软雅黑";
+  text-align: left; }
+
+.intro-con h3 {
+  font-size: 14px;
+  width: 100%;
+  line-height: 30px; }
+
+.intro-con .price {
+  font-size: 24px;
+  color: #7F5B42;
+  font-weight: bold; }
+
+.intro-con .member {
+  height: 30px;
+  overflow: hidden;
+  color: #7F5B42;
+  font-weight: bold;
+  line-height: 30px;
+  font-size: 14px;
+  margin-bottom: 10px; }
+
+.intro-con .member .icon1 {
+  float: left;
+  width: 50px;
+  text-align: center;
+  font-size: 12px;
+  color: #ffffff;
+  background: #7F5B42;
+  line-height: 30px;
+  height: 30px;
+  font-weight: bold;
+  border-radius: 3px 3px;
+  margin-right: 15px; }
+
+.intro-con .comment {
+  height: 66px;
+  background: #f6f5f3; }
+
+.comment li {
+  float: left;
+  width: 200px;
+  text-align: center;
+  line-height: 33px; }
+
+.comment li p {
+  font-weight: 700;
+  font-size: 18px;
+  color: #b1544f;
+  line-height: 33px; }
+
+.comment li h3 {
+  color: #6B6B6B;
+  font-size: 14px; }
+
+.information {
+  color: #6B6B6B;
+  margin-top: 12px;
+  font: 12px/1.5 Arial,simsun;
+  text-align: left;
+  font-weight: 800;
+  font-size: 14px; }
+
+.color {
+  height: 66px;
+  background: #f6f5f3;
+  line-height: 33px;
+  overflow: hidden;
+  margin-top: 15PX; }
+
+.color div {
+  overflow: hidden; }
+
+.color dt {
+  float: left;
+  overflow: hidden;
+  display: block;
+  color: #333;
+  font-size: 16px;
+  font-weight: 700; }
+
+.color dd {
+  float: left;
+  display: block;
+  height: 20px;
+  padding: 3px 5px;
+  margin-top: 3px;
+  color: #6B6B6B;
+  line-height: 18px;
+  border: 1px solid #eeeeee;
+  background-color: white; }
+
+.color p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333; }
+
+.color p span {
+  margin-left: 15px;
+  word-spacing: 10px; }
+
+.num {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  margin-top: 15px;
+  height: 30px; }
+
+.num p {
+  float: left; }
+
+.num .num-goods {
+  float: left;
+  text-align: center;
+  position: relative;
+  width: 90px;
+  line-height: 25px;
+  height: 25px;
+  margin-left: 15px;
+  border: 1px solid #aaa; }
+
+.num button {
+  height: 25px;
+  width: 25px;
+  background: #ccc; }
+
+.jian {
+  float: left; }
+
+.jia {
+  float: right; }
+
+.addCart {
+  width: 160px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  background: #b1544f;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top: 15px;
+  float: right;
+  margin-right: 50px; }
